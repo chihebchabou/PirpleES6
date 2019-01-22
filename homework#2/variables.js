@@ -14,7 +14,7 @@
  What are the differences between let, const and var?
  variables declared with 'var' keyword are defined globally(outside any function), or locally(inside a function) without consideration of the block they are declared within.
  Prior to the ES6, only 'var' keyword is used to declare variables.
- Unlike 'var', if a variable declared with 'let' or 'const' within a block of code which is delimited with curly braces {}), it is only accessible to the code within this block.
+ Unlike 'var', if a variable declared with 'let' or 'const' within a block of code which is delimited with curly braces {}, it is only accessible to the code within this block.
  Constant variables, which are declared with 'const' keyword, must be assigned a value (initialized) when declared.
  'const' variables cannot be reassigned
  'const' and 'let' are introduced in ES6
