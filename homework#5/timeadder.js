@@ -9,6 +9,9 @@
 */
 function timeAdder(value1, label1, value2, label2) {
 
+    label1 = label1.toLowerCase();
+    label2 = label2.toLowerCase();
+
     // Define the array that the function will return
     let timeResult = [];
 
@@ -293,7 +296,7 @@ function largestTimeAdder(time) {
     return time;
 }
 
-const time1 = timeAdder(1, "hour", 0, 'day');
+const time1 = timeAdder(1, "Hour", 0, 'day');
 const time2 = timeAdder(false, "seconds", 30, "minutes");
 const time3 = timeAdder(23, "hours", 60, "minutes");
 const time4 = timeAdder(23, "qsdqs", 1, "hour");
