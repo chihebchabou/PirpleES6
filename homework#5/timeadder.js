@@ -65,7 +65,7 @@ function timeAdder(value1, label1, value2, label2) {
                 default:
 
                     // The case that the function's label2 argument is not second(s) or minute(s) or hour(s) or day(s)
-                    return " label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
+                    return "label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
             }
 
             // If label3 is not assigned a value then it takes "second" or "seconds" in this case
@@ -111,7 +111,7 @@ function timeAdder(value1, label1, value2, label2) {
                 default:
 
                     // The case that the function's label2 argument is not second(s) or minute(s) or hour(s) or day(s)
-                    return " label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
+                    return "label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
             }
 
             // If label3 is not assigned a value then it takes "minute" or "minutes" in this case
@@ -160,7 +160,7 @@ function timeAdder(value1, label1, value2, label2) {
                 default:
 
                     // The case that the function's label2 argument is not second(s) or minute(s) or hour(s) or day(s)
-                    return " label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
+                    return "label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
             }
 
             // If label3 is not assigned a value then it takes "hour" or "hours" in this case
@@ -212,7 +212,7 @@ function timeAdder(value1, label1, value2, label2) {
                 default:
 
                     // The case that the function's label2 argument is not second(s) or minute(s) or hour(s) or day(s)
-                    return " label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
+                    return "label2 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
             }
 
             // If label3 is not assigned a value then it takes "day" or "days" in this case
@@ -224,7 +224,7 @@ function timeAdder(value1, label1, value2, label2) {
         default:
 
             // The case that the function's label1 argument is not second(s) or minute(s) or hour(s) or day(s)
-            return " label1 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
+            return "label1 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'";
     }
 
     // Fill the timeResult array and return it
@@ -328,6 +328,6 @@ invalid input
 [ 1440, 'minutes' ]
 [ 1, 'day' ]
 -------------------------
- label1 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'
+label1 should accept any of the following strings: 'seconds', 'minutes', 'hours', 'days', 'second', 'minute', 'hour', 'day'
 invalid input
 */
