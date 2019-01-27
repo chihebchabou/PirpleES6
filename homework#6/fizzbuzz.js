@@ -5,7 +5,7 @@
 labelx:
 for (let x = 1; x <= 100; x++) {
 
-    // Chek if x is a multiple of three or five
+    // Check if x is a multiple of three or five
     if (x % 3 === 0 || x % 5 === 0) {
 
         // If both of them, log to the console "FizzBuzz"
@@ -27,7 +27,7 @@ for (let x = 1; x <= 100; x++) {
 
         // Extra Credit
 
-        // Chek if x is prime or not
+        // Check if x is prime or not
         for (let y = 2; y < x; y++){
 
             // If x is not prime which means that x is a multiple of a number between two and x (excluded), then log the number itself
