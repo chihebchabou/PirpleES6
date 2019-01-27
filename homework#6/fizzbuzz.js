@@ -51,12 +51,12 @@ prime
 prime
 Fizz
 4
-buzz
+Buzz
 Fizz
 prime
 8
 Fizz
-buzz
+Buzz
 prime
 Fizz
 prime
@@ -66,5 +66,5 @@ FizzBuzz
 prime
 Fizz
 prime
-buzz
+Buzz
 */
