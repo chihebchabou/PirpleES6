@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+#container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+.displayNone {
+    display: none;
+}
+
+span {
+    padding: 5px 0;
+}
+
+.successMessage {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.failureMessage {
+    color: rgb(128, 0, 0);;
+    border: 1px solid rgb(128, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 5px 0;
+}
