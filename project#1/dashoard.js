@@ -256,6 +256,8 @@ function editList(listObj) {
         e.preventDefault();
         edit.innerHTML = "";
         edit.classList.add("displayNone");
+        myDashboard.innerHTML = "";
+        userDashboard(currentUser);
         myDashboard.classList.remove("displayNone");
         editForm.reset();
     });
