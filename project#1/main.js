@@ -1,12 +1,6 @@
-const container = document.getElementById("container");
-const signUpForm = document.getElementById("signUpForm");
-const logInForm = document.getElementById("logInForm");
-const index = document.getElementById("index");
 const formS = document.getElementById("formS");
 const formL = document.getElementById("formL");
-const myDashboard = document.getElementById("myDashboard");
-const welcome = document.getElementById("welcome");
-const edit = document.getElementById("edit");
+
 let currentUser;
 
 container.addEventListener("click", (e) => {

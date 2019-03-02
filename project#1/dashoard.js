@@ -9,7 +9,7 @@ function userDashboard(user) {
     myListsHT.innerText = "My TODO lists";
     myDashboardHT.innerText = "My dashboard";
     const currentUserData = document.createElement("ul");
-    currentUserData.innerHTML = "<li>" + currentUser.firstName + " " + currentUser.lastName + "</li><li>"+currentUser.email + "</li>";
+    currentUserData.innerHTML = `<li> ${currentUser.firstName} ${currentUser.lastName} </li><li>${currentUser.email}</li>`;
     myDashboard.appendChild(myDashboardHT);
     myDashboard.appendChild(currentUserData);
     myDashboard.appendChild(myListsHT);
@@ -24,7 +24,7 @@ function userDashboard(user) {
                 empty = false;
                 const toDoListsLI = document.createElement("li");
                 toDoListsLI.id = list.id;
-                toDoListsLI.innerHTML = list.listName + " <a href='' style='color:green'>edit</a> <button>remove</button>";
+                toDoListsLI.innerHTML = `${list.listName} <a href='' style='color:green'>edit</a> <button>remove</button>`;
                 toDoListsUL.appendChild(toDoListsLI);
             }
         }
@@ -217,10 +217,10 @@ function editList(listObj) {
         for (const item in listObj.listItems) {
             const listItemsLI = document.createElement("li");
             if (listObj.listItems[item] === "undone") {
-                listItemsLI.innerHTML = item + " <input type='checkbox'>";
+                listItemsLI.innerHTML = `${item} <input type='checkbox'>`;
                 listItemsLI.id = item;
             } else {
-                listItemsLI.innerHTML = item + " <input type='checkbox' checked>";
+                listItemsLI.innerHTML = `${item} <input type='checkbox' checked>`;
                 listItemsLI.id = item;
             }
             listItemsUL.appendChild(listItemsLI);
@@ -239,7 +239,7 @@ function editList(listObj) {
         } else {
             const listItemsLI = document.createElement("li");
             listItemsLI.id = editForm.querySelector("#newListItem").value;
-            listItemsLI.innerHTML = editForm.querySelector("#newListItem").value + " <input type='checkbox'>"
+            listItemsLI.innerHTML = `${editForm.querySelector("#newListItem").value} <input type='checkbox'>`;
             listItemsUL.appendChild(listItemsLI);
             editForm.insertBefore(listItemsUL, input);
         }

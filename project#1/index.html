@@ -2,87 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body onload="keepMeConnected()">
-    <div id="container">
-        <h1>To-Do list</h1>
-        <p>Get your stuff done</p>
-        <div id="index">
-            <button id="signUpBtn">Sign Up</button>
-            <button id="logInBtn">Log In</button>
-        </div>
+    <!-- All of the HTML within the <body> is written by Javascript in template.js file -->
+    <script src="templates.js"></script>
 
-        <div id="welcome" class="displayNone">
-            <button id="newTODOBtn">Create new TODO</button>
-            <button id="logOutBtn">Log Out</button>
-            <button id="deleteBtn">Delete user</button>
-        </div>
-
-        <hr>
-        
-        <div id="signUpForm" class="displayNone">
-            <h2>Sign Up</h2>
-            <form id="formS" action="">
-                <p>
-                <label for="userFirstName">First Name</label>
-                <input type="text" name="userFirstName" id="userFirstName">
-                </p>
-                <p>
-                <label for="userLastName">Last Name</label>
-                <input type="text" name="userLastName" id="userLastName">
-                </p>
-                <p>
-                <label for="userEmail">Email</label>
-                <input type="text" name="userEmail" id="userEmail">
-                </p>
-                <p>
-                <label for="userPassword">Password</label>
-                <input type="password" name="userPassword" id="userPassword">
-                </p>
-                <p>
-                <label for="userConfirmPassword">Confirm Password</label>
-                <input type="password" name="userConfirmPassword" id="userConfirmPassword">
-                </p>
-                <p>
-                <label for="termUse">I agree to the Terms of Use</label>
-                <input type="checkbox" name="termUse" id="termUse" value="agree">
-                </p>
-                <button type="submit">Sign Up</button>
-            </form>
-        </div>
-
-        <div id="logInForm" class="displayNone">
-	        <h2>Log In</h2>
-	        <form id="formL" action="">
-	            <p>
-                <label for="userLoginEmail">Email</label>
-                <input type="text" name="userLoginEmail" id="userLoginEmail">
-                </p>
-                <p>
-                <label for="userLoginPassword">Password</label>
-                <input type="password" name="userLoginPassword" id="userLoginPassword">
-                </p>
-                <p>
-                <label for="userRememberMe">Remember me</label>
-                <input type="checkbox" name="userRememberMe" id="userRememberMe">
-                </p>
-                <button type="submit">Log In</button>
-	        </form>
-        </div>
-
-        <div id="myDashboard" class="displayNone">
-        </div>
-
-        <div id="edit" class="displayNone">
-            
-        </div>
-    </div>
-   
-    <script src="./md5.min.js"></script> <!--Extra Credit: open-source JS library for hashing passwords -->
+    <script src="./md5.min.js"></script>
     <script src="./main.js"></script>
     <script src="./validations.js"></script>
     <script src="./dashoard.js"></script>
