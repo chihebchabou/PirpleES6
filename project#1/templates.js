@@ -131,9 +131,6 @@ const link = {rel: "stylesheet", href: "./style.css"}
 
 const head = document.getElementsByTagName("head");
 
-
-console.log(document);
-
 head[0].innerHTML = (
     `${head[0].innerHTML}
     <meta name="${meta2["name"]}" content="${meta2["content"]}">
@@ -142,4 +139,3 @@ head[0].innerHTML = (
     <link rel="${link["rel"]}" href="${link["href"]}">
     `
 );
-console.log(head[0].innerHTML);
