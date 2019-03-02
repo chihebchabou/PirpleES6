@@ -121,7 +121,6 @@ const body = document.getElementsByTagName("body");
 body[0].appendChild(container);
 
 
-const meta1 = {charset: "UTF-8"};
 const meta2 = {name: "viewport", content:"width=device-width, initial-scale=1.0"};
 const meta3 = {"http-equiv": "X-UA-Compatible", content:"ie=edge"};
 
