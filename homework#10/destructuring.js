@@ -25,7 +25,7 @@ const {firstName:FN, lastName:LN, age:AGE} = person;
 console.log(FN, LN, AGE);
 
 /*
-Destructuring an array is the act of extacting values
+Destructuring an array is the act of extracting values
 and save them in variables wrapped in brackets []
 */
 
